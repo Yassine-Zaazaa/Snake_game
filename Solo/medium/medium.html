@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+      #gameCanvas {
+        display: block
+        margin: 5px auto;
+        border: 1px solid grey;
+      }
+      .button:hover {
+        background-color: grey;
+        cursor: pointer;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1
+        class="Title"
+        ,
+        style="
+          font-size: 60px;
+          font-family: 'Fjalla One', sans-serif;
+          text-shadow: -5px 5px 10px black;
+        "
+      >
+        SNAKE GAME
+      </h1>
+      <br />
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+      <p style="font-weight: bold;">
+        &emsp;&emsp;1x&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2x
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3x
+      </p>
+      <p
+        style="
+          position: relative;
+          right: 250px;
+          font-weight: bold;
+          font-family: 'Lucida Console', 'Courier New', monospace;
+          font-size: 20px;
+        "
+      >
+        SPEED
+      </p>
+      <br />
+      <p
+        class="button"
+        style="
+          position: relative;
+          left: 300px;
+          font-weight: bold;
+          font-family: 'Lucida Console', 'Courier New', monospace;
+          font-size: 20px;
+          width: 100px;
+          height: auto;
+        "
+      >
+        Pause
+      </p>
+      <p
+        class="button"
+        style="
+          position: relative;
+          left: 550px;
+          font-weight: bold;
+          font-family: 'Lucida Console', 'Courier New', monospace;
+          font-size: 20px;
+          width: 100px;
+          height: auto;
+          bottom: 44px;
+        "
+      >
+        Start
+      </p>
+    </div>
+  </body>
+</html>
+<script type="text/javascript" src="fruit.js"></script>
+<script type="text/javascript" src="snake.js"></script>
+<script type="text/javascript" src="draw.js"></script>
